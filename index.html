@@ -3,9 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>new learn</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Manrope:wght@500;700;800&family=Merriweather:ital,wght@0,400;0,700;1,300&family=Mulish:ital@1&family=Open+Sans:wght@800&display=swap');
+  </style>
+  <style>.font-manrope{font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;}</style>
 </head>
+
 <body>
+    <header>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-4xl Manrope">Hockey <span class="text-red-500 ">'</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 Manrope">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button>
+          <a class="btn text-white bg-red-500 ">Get Ticket</a>
+        </div>
+      </div>
     
+    </header>
+
+    <main>
+      <div class="carousel w-full p-10">
+        <div id="slide1" class="carousel-item relative hero min-h-screen">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex bottom-0 left-0 gap-1.5 p-10 ">
+            <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div> 
+       
+    </main>
+    <hr class="border-dotted my-20 p-10 ">
+    <section class="text-center my-.5 font-manrope p-10"><h1 class="text-5xl	Manrope font-extrabold">Professional Hockeys Club</h1><p class="Manrope my-5 font-xl ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p></section>
+    <hr class="border-dotted my-20 p-10">
+    <!-- % -->
+    <section class="flex justify-between p-10">
+    <div class="text-center"><div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div><h1 class="Manrope text-xl font-bold">Prayer Facility</h1><p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p></div>
+    <div class="text-center"><div class="radial-progress text-green-600" style="--value:95;" role="progressbar">95%</div><h1 class="Manrope text-xl font-bold">Experienced Coach</h1><p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p></div>
+    <div class="text-center"><div class="radial-progress text-amber-200" style="--value:90;" role="progressbar">90%</div><h1 class="Manrope text-xl font-bold">Senior Player</h1><p>Amet consectetur. Condimentum  <br>dignissim adipiscing .</p></div>
+    <div class="text-center"><div class="radial-progress text-cyan-500 " style="--value:80;" role="progressbar ">80%</div>
+    <h1 class="Manrope text-xl font-bold	">Training Ground</h1><p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p></div></section>
+
+    <!-- text -->
+    <hr class="border-dotted my-20 p-10  ">
+    <section class="text-center my-.5 font-manrope p-10"><h1 class="text-5xl	Manrope font-extrabold">Program Sections</h1><p class="Manrope my-5 text-base  ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.  </p></section>
+    <hr class="border-dotted my-20 p-10">
+<!-- new-->
+    
+ <section class=" flex w-full 	p-10"><div class="card w-96   image-full grid h-10 flex-grow card  rounded-box place-items-center">
+  <figure><img src="Images/2.png" alt="Shoes" /></figure>
+  <div class="card-body place-items-center">
+    <h2 class="card-title">Junior Program</h2>
+    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit  <br>
+      enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Register Now!</button>
+    </div>
+  </div>
+</div>
+<div class="card w-60   image-full grid h-20 flex-grow card  rounded-box place-items-center">
+  <figure><img src="Images/3.png" alt="Shoes" /></figure>
+  <div class="card-body place-items-center">
+    <h2 class="card-title">Teenager Program</h2>
+    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> 
+enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Register Now!</button>
+    </div>
+  </div>
+
+ <div></div>
+</section>
+<!-- 2 -->
+<section><div class="hero min-h-screen bg-base-200 place-items-center">
+  <div class="card w-full   image-full grid h-20 flex-grow card  rounded-box place-items-center">
+    <figure><img src="Images/4.png" alt="Shoes" /></figure>
+    <div class="card-body place-items-center">
+      <h2 class="card-title">Teenager Program</h2>
+      <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> 
+  enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">Register Now!</button>
+      </div>
+    </div>
+  
+   <div></div>
+</section>
+<hr class="border-dotted my-20 p-10">
+<!-- text -->
+<section>
+  <section class="text-center my-.5 font-manrope p-5"><h1 class="text-5xl	Manrope font-extrabold">Our New Products</h1><p class="Manrope my-5 text-base  ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.   </p></section>
+  <hr class="border-dotted my-20 p-10"></section>
+<!-- footer -->
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <nav>
+      <header class="footer-title">Get In Touch</header> 
+      <a class="link link-hover">Dit amet consectetur. Condimentum <br>  adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </a>
+      <a class="link link-hover">hockeys@support.com</a>
+      <a class="link link-hover">(+62) 123-321-543</a>
+      
+    </nav> 
+    <nav>
+      <header class="footer-title">Company</header> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Leadership</a>
+      <a class="link link-hover">Careers</a>
+      <a class="link link-hover">News & Article</a>
+      <a class="link link-hover">Legal Notice</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Support</header> 
+      <a class="link link-hover">Help Center</a>
+      <a class="link link-hover">FAQ</a>
+      <a class="link link-hover">Ticket Support</a>
+      <a class="link link-hover">Contact Us</a>
+      
+    </nav>
+    <nav>
+      <header class="footer-title">Services</header> 
+      <a class="link link-hover">Academy</a>
+      <a class="link link-hover">Group Lesson</a>
+      <a class="link link-hover">Private Lesson</a>
+      <a class="link link-hover">Hockeys for kids</a>
+      <a class="link link-hover">Hockeys for Adult/a>
+    </nav> 
+  </footer>
 </body>
+
+
+
 </html>
